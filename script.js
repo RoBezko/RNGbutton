@@ -6,16 +6,20 @@ const texts = [
     "kys",
     "👍",
     "The thing aint lettin me to make this page black, womp womp",
-    "d"
+    "d",
+    "https://tenor.com/view/marcopolo-paradiso-g8-1800-dd-gif-24605671",
+    "those who noes",
+    "wake up",
+    "💥💥💥💥💥💥💥",
+    "Diddy party",
+    "Mango",
+    "AAAAAAAAAAAAAAAAHHHHHHH",
+    "I ran out of things to write"
   ];
   
-  // Function to generate a random text
   function generateRandomText() {
-    // Get a random index from the texts array
     const randomIndex = Math.floor(Math.random() * texts.length);
-    // Display the selected text in the #displayText div
     document.getElementById("displayText").innerText = texts[randomIndex];
   }
   
-  // Add event listener to the button
   document.getElementById("generateButton").addEventListener("click", generateRandomText);
