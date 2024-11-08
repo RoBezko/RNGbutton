@@ -14,7 +14,8 @@ const texts = [
     "Diddy party",
     "Mango",
     "AAAAAAAAAAAAAAAAHHHHHHH",
-    "I ran out of things to write"
+    "I ran out of things to write",
+    "5k ping"
   ];
   
   function generateRandomText() {
