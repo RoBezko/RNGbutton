@@ -15,7 +15,8 @@ const texts = [
     "Mango",
     "AAAAAAAAAAAAAAAAHHHHHHH",
     "I ran out of things to write",
-    "5k ping"
+    "5k ping",
+    "IGN beta tester"
   ];
   
   function generateRandomText() {
